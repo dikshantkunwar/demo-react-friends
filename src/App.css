@@ -1,0 +1,54 @@
+.App {
+  margin: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0.2em;
+}
+
+h4:empty:before {
+  content: "\200b"; /* unicode zero width space character */
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: auto;
+  width: 16em;
+}
+
+li {
+  padding: 5px;
+  margin: 2px;
+  background-color: #eee;
+  text-align: left;
+}
+
+li a {
+  color: grey;
+}
+
+li:hover {
+  background-color: darkolivegreen;
+  color: white;
+  cursor: pointer;
+}
+
+li:hover a {
+  color: white;
+}
+
+span {
+  color: red;
+}
+
+button { 
+  padding: 4px;
+  margin: 4px 2px 4px 2px;
+}
